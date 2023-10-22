@@ -20,7 +20,8 @@
 	cursor: pointer;
 	border-top: 1px solid #414141;
 	border-bottom: 1px solid #414141;
-
+	overflow: hidden;
+	
 	@include media(">mobile") {
 		position: absolute !important;
 		height: 14.578vh !important;

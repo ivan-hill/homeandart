@@ -1,40 +1,78 @@
 import React from "react";
-import S from "./SectionTwo.module.scss";
-import { ReactComponent as Signature } from "../../svgs/signature.svg";
+import Marquee from "react-fast-marquee";
+import S from "./SectionSeven.module.scss";
+import { ReactComponent as Line } from "../../svgs/line.svg";
+import { ReactComponent as Plus } from "../../svgs/plus.svg";
 
-const SectionTwo: React.FC = () => {
+type SectionSevenProps = {
+	windowWidth: number;
+};
+
+const SectionSeven: React.FC<SectionSevenProps> = ({ windowWidth }) => {
 	return (
-    <section id="section-two" data-scroll-section>
+    <section data-scroll-section>
       <div className={S.section}>
-        <div className={S.textWrapper}>
-          <h2 className={S.title}>The story behind the brand</h2>
-          <p className={S.text}>
-            I'm Anderizen Voll, Lead Designer at Home & Art who has been
-            designing and creating unique wall decor for more than 10 years. If you
-            have a special picture of you, your baby's birthday, your Instagram
-            photos, or a moment you want to immortalize, please contact me. I
-            would be happy to make custom designs for you and turn them into
-            canvas, glass painting, or wallpaper.
-          </p>
-
-          <p className={S.text}>
-            Here, I design all my prints myself and print them in my own studio.
-            You can use these beautiful prints as Wall Art Decor in every
-            corner of your home or office as home decor or office decor. You can
-            give a Wedding Gift or engagement Gift to your friends, or loved ones.
-          </p>
-
-          <Signature className={S.signature} />
-          <p className={S.person}>Lead designer</p>
+        <div className={S.marqueeSection}>
+          <Marquee
+            pauseOnHover
+            gradient={false}
+            className={S.marquee}
+            speed={windowWidth > 1024 ? 15 : 80}
+          >
+            <p className={S.marqueeText}>Finesse</p>
+            <p className={S.marqueeText}>Finesse</p>
+            <p className={S.marqueeText}>Finesse</p>
+            <p className={S.marqueeText}>Finesse</p>
+            <p className={S.marqueeText}>Finesse</p>
+          </Marquee>
         </div>
-        <div className={S.imageWrapper}>
-          <div className={S.imageContainer}>
-            <div data-scroll className={S.image} data-scroll-speed="-1" />
+        <div className={S.main}>
+          <div className={S.up}>
+            <div className={S.left}>
+              <div className={S.row}>
+                <Line
+                  id={"lineRef"}
+                  width="5vh"
+                  height="0.33vh"
+                  className={S.line1}
+                />
+                <p className={S.largeText}>Casual</p>
+              </div>
+              <div className={S.row2}>
+                <Plus />
+              </div>
+              <div className={S.row3}>
+                <p className={S.largeText}>Street Style</p>
+                <Line
+                  id={"lineRef"}
+                  width="5vh"
+                  height="0.33vh"
+                  className={S.line2}
+                />
+              </div>
+            </div>
+            <div className={S.right}>
+              <p className={S.smallText}>
+                We believe that art should not be intimidating, luxury is
+                more than leather and silk, and prices are not always the best
+                criteria to judge a good wall decor.
+              </p>
+            </div>
+          </div>
+          <div className={S.down}>
+            <img
+              className={S.img}
+              src={
+                windowWidth > 1024
+                  ? "https://res.cloudinary.com/ihill/image/upload/v1697970383/graffit_blk_gumjy5.jpg"
+                  : "https://res.cloudinary.com/ihill/image/upload/c_fill,w_367,h_206,ar_16:9/v1697970383/graffit_blk_gumjy5.jpg"
+              }
+              alt=""
+            />
           </div>
         </div>
       </div>
     </section>
   );
 };
-
-export default SectionTwo;
+export default SectionSeven;

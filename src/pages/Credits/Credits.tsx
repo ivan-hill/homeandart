@@ -170,10 +170,13 @@ const Credits: React.FC<PageProps> = ({
               data-splitting=""
               className={`${S.textTypeThree} split-text hidden-init`}
             >
-              <a className={S.bold} href="">
-                Cottonbro
+              <a
+                className={S.bold}
+                href="https://www.etsy.com/shop/WallArtsDecorShop?ref=shop-header-name&listing_id=1293994661&from_page=listing"
+              >
+                 WallArtsDecorShop
               </a>{" "}
-              on Pexels
+              on Etsy
             </p>
           </div>
           <div className={S.box2}>

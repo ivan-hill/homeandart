@@ -52,7 +52,7 @@ const SectionFive: React.FC<SectionFiveProps> = ({ windowWidth }) => {
           <img
             className={S.image}
             src="https://res.cloudinary.com/ihill/image/upload/v1697969787/textured_wallpaper_vuyztp.jpg"
-            alt="textured wall paper"
+            alt="textured wallpaper"
           />
           <h2
             data-scroll
@@ -74,7 +74,7 @@ const SectionFive: React.FC<SectionFiveProps> = ({ windowWidth }) => {
               className={S.line1}
             />
             <p ref={ref} className={S.subText}>
-              Wear with attitude
+          Walls with attitude
             </p>
           </div>
           <div className={S.subRow}>
@@ -89,18 +89,16 @@ const SectionFive: React.FC<SectionFiveProps> = ({ windowWidth }) => {
         </div>
         <div className={S.textWrapper}>
           <p className={S.text}>
-            Minimalism has arrived in a totally new silhouette. The York & Dante
+            Minimalism has arrived in a totally new silhouette. The Home & Art
             collection is manufactured with the highest quality working to blend
-            the right amount of luxury, exclusivity and simplicity. Our brand
+            the right amount of luxury, exclusivity, and simplicity. Our brand
             dedicates itself to unique pieces that are standard in its product
-            line and can easily become your wardrobe's complement without losing
+            line and can easily become your home's complement without losing
             your personality or creativity. Our bond is to create timeless
-            pieces that provide ceaseless elegance. The garments are built to be
-            worn from the city to the mountains: made of eco-friendly materials
-            that are handmade within an ethical manufacturing process. All you
-            need to do is add an attitude of confidence and our pieces take care
-            of the rest. Find your style and story within this collection, and
-            leave your mark on it.
+            pieces that provide ceaseless elegance. The wall decor is built to be
+            conversational and vivid. All you need to do is add an attitude of
+            confidence and our pieces take care of the rest.
+            Find your style and story within this collection, and leave your mark on it.
           </p>
         </div>
       </div>

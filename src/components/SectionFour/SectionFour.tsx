@@ -63,7 +63,7 @@ const SectionFour: React.FC = () => {
 				</div>
 				<div className={S.right}>
 					<h3 ref={ref2} className={S.header}>
-						Made of Eco-Friendly materials sewn into the hem of
+						Made of Eco-Friendly materials printed into the fabric of
 						every piece
 					</h3>
 					<Line
@@ -75,7 +75,7 @@ const SectionFour: React.FC = () => {
 						Internally, the flannel fabric is created from recycled
 						bottles and organic hemp. Its outer shell is made from
 						regenerated cotton fibers that are softer than cotton
-						and sturdier than canvas. This allows our clothing to
+						and sturdier than canvas. This allows our wall decor to
 						avoid the harsh chemicals that would normally be used to
 						whiten. We like to think of it as taking the best of
 						everything nature has to offer, maximizing its positive

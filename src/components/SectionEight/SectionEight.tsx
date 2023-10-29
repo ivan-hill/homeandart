@@ -46,7 +46,7 @@ const SectionEight: React.FC<SectionEightProps> = ({ windowWidth }) => {
           <p className={S.text}>
             Each piece of the Chimela has been designed to accentuate the beauty
             of the female form, from the intricate point d'esprit embroidery.
-            The simplicity and minimal approach is what makes this fashion
+            The simplicity and minimal approach is what makes each atmosphere
             collection unique.
           </p>
           <img
@@ -65,8 +65,7 @@ const SectionEight: React.FC<SectionEightProps> = ({ windowWidth }) => {
           <p className={S.text}>
             Designed by luchesse and crafted using luscious fabrics, this Turbis
             collection is as opulent as it is versatile. Versatile enough to
-            take on any sexy occasion. Designs of this collection are designed
-            to create style you can call your own.
+            take on many different patterns and sizes of canvas wall art.
           </p>
           <img
             className={S.img}
@@ -82,10 +81,10 @@ const SectionEight: React.FC<SectionEightProps> = ({ windowWidth }) => {
           />
           <p className={S.title}>Ardoniss</p>
           <p className={S.text}>
-            Ardoniss is a fashion collection from luchesse; this piece depicts
-            the creative and innovative quality of modern fashion. Ardoniss
-            collection encompasses the classical styles of tunics, dresses and
-            trousers with 3D appliqués adorning every hem.
+            Ardoniss is a fashion collection of interior design art like
+            livingroom wall decor, bedroom decor, kitchen decor, bathroom
+            canvas, office decor, hotel decor, gym decor, and many other places
+            in your life which will change your atmosphere.
           </p>
           <img
             className={S.img}
@@ -101,10 +100,9 @@ const SectionEight: React.FC<SectionEightProps> = ({ windowWidth }) => {
           />
           <p className={S.title}>Plaid</p>
           <p className={S.text}>
-            Plaid is a clean, modern, and minimalistic suit style fashion
-            collection from Luchesse. The lines have been refined to create a
-            dressy uniform that can translate day to night. The exclusive
-            fabrics we use will fit perfectly into your everyday work wardrobe.
+            Plaid is a clean, modern, and minimalistic canvas paintings that are
+            carefully printed on top-quality cotton canvas with certified
+            eco-friendly ink that can be easily cleaned with a damp cloth.
           </p>
           <img
             className={S.img}

@@ -4,38 +4,37 @@ import { ReactComponent as Signature } from "../../svgs/signature.svg";
 
 const SectionTwo: React.FC = () => {
 	return (
-		<section id="section-two" data-scroll-section>
-			<div className={S.section}>
-				<div className={S.textWrapper}>
-					<h2 className={S.title}>The story behind the brand</h2>
-					<p className={S.text}>
-						York & Dante is a fashion brand from France with the
-						vision of making the fashion industry more aware of
-						environmental issues and promoting the use of recycled
-						and eco-friendly materials in the fashion world. The
-						100% organic cotton dresses are delicately printed using
-						a cutting-edge screen printer and special non-toxic inks
-						that will never fade or run even after washing. With a
-						focus on community and great service, we donate 2% of
-						all our profits to help preserve the world we live in.
-						We know you will love your fashion piece ... we
-						certainly do!
-					</p>
-					<Signature className={S.signature} />
-					<p className={S.person}>Lead designer</p>
-				</div>
-				<div className={S.imageWrapper}>
-					<div className={S.imageContainer}>
-						<div
-							data-scroll
-							className={S.image}
-							data-scroll-speed="-1"
-						/>
-					</div>
-				</div>
-			</div>
-		</section>
-	);
+    <section id="section-two" data-scroll-section>
+      <div className={S.section}>
+        <div className={S.textWrapper}>
+          <h2 className={S.title}>The story behind the brand</h2>
+          <p className={S.text}>
+            I'm Anderizen Voll, Lead Designer at Home & Art who has been
+            designing and creating unique wall decor for more than 10 years. If you
+            have a special picture of you, your baby's birthday, your Instagram
+            photos, or a moment you want to immortalize, please contact me. I
+            would be happy to make custom designs for you and turn them into
+            canvas, glass painting, or wallpaper.
+          </p>
+
+          <p className={S.text}>
+            Here, I design all my prints myself and print them in my own studio.
+            You can use these beautiful prints as Wall Art Decor in every
+            corner of your home or office as home decor or office decor. You can
+            give a Wedding Gift or engagement Gift to your friends, or loved ones.
+          </p>
+
+          <Signature className={S.signature} />
+          <p className={S.person}>Lead designer</p>
+        </div>
+        <div className={S.imageWrapper}>
+          <div className={S.imageContainer}>
+            <div data-scroll className={S.image} data-scroll-speed="-1" />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default SectionTwo;
